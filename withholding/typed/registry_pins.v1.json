@@ -1,0 +1,1822 @@
+{
+ "entries": {
+  "cascade/coderl/no_think": {
+   "accepted_kwargs": [
+    "enable_thinking"
+   ],
+   "bos_at_start": 0,
+   "close_ids": [
+    151668
+   ],
+   "default_system_line": "You are a helpful and harmless assistant.",
+   "generation_prefix_ids": [
+    608,
+    2152,
+    5854,
+    766,
+    151645,
+    198,
+    151644,
+    77091,
+    198
+   ],
+   "generation_prefix_text": " /no_think<|im_end|>\n<|im_start|>assistant\n",
+   "kwargs_flip": {
+    "content": "unchanged",
+    "enable_thinking": "changes",
+    "reasoning_content": "unchanged"
+   },
+   "kwargs_named": [
+    "content",
+    "enable_thinking",
+    "reasoning_content"
+   ],
+   "no_tools_marker": null,
+   "open_ids": [
+    151667
+   ],
+   "role_names": [
+    "assistant",
+    "system",
+    "user"
+   ],
+   "spec_id": "cb810992523c5517",
+   "special_ids": {
+    "bos": null,
+    "eos": 151645,
+    "pad": 151643,
+    "turn_end": 151645,
+    "turn_start": 151644,
+    "unk": null
+   },
+   "template_sha": "1d357aa3a95cc57d98140d0ecbff42761eb749ef73eb9766535878259887b4d8",
+   "tokenizer_file_shas": {
+    "special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "184ef642f5e66300b45a80410553f4cc62fa453a8f902cd9ba2c016d323aaac1"
+   },
+   "turn_start_ids": [
+    151644
+   ]
+  },
+  "cascade/coderl/think": {
+   "accepted_kwargs": [
+    "enable_thinking"
+   ],
+   "bos_at_start": 0,
+   "close_ids": [
+    151668
+   ],
+   "default_system_line": "You are a helpful and harmless assistant.",
+   "generation_prefix_ids": [
+    608,
+    26865,
+    151645,
+    198,
+    151644,
+    77091,
+    198
+   ],
+   "generation_prefix_text": " /think<|im_end|>\n<|im_start|>assistant\n",
+   "kwargs_flip": {
+    "content": "unchanged",
+    "enable_thinking": "changes",
+    "reasoning_content": "unchanged"
+   },
+   "kwargs_named": [
+    "content",
+    "enable_thinking",
+    "reasoning_content"
+   ],
+   "no_tools_marker": null,
+   "open_ids": [
+    151667
+   ],
+   "role_names": [
+    "assistant",
+    "system",
+    "user"
+   ],
+   "spec_id": "b5be7b2787fd37b5",
+   "special_ids": {
+    "bos": null,
+    "eos": 151645,
+    "pad": 151643,
+    "turn_end": 151645,
+    "turn_start": 151644,
+    "unk": null
+   },
+   "template_sha": "1d357aa3a95cc57d98140d0ecbff42761eb749ef73eb9766535878259887b4d8",
+   "tokenizer_file_shas": {
+    "special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "184ef642f5e66300b45a80410553f4cc62fa453a8f902cd9ba2c016d323aaac1"
+   },
+   "turn_start_ids": [
+    151644
+   ]
+  },
+  "cascade/final/no_think": {
+   "accepted_kwargs": [
+    "enable_thinking"
+   ],
+   "bos_at_start": 0,
+   "close_ids": [
+    151668
+   ],
+   "default_system_line": "You are a helpful and harmless assistant.",
+   "generation_prefix_ids": [
+    608,
+    2152,
+    5854,
+    766,
+    151645,
+    198,
+    151644,
+    77091,
+    198
+   ],
+   "generation_prefix_text": " /no_think<|im_end|>\n<|im_start|>assistant\n",
+   "kwargs_flip": {
+    "content": "unchanged",
+    "enable_thinking": "changes",
+    "reasoning_content": "unchanged"
+   },
+   "kwargs_named": [
+    "content",
+    "enable_thinking",
+    "reasoning_content"
+   ],
+   "no_tools_marker": null,
+   "open_ids": [
+    151667
+   ],
+   "role_names": [
+    "assistant",
+    "system",
+    "user"
+   ],
+   "spec_id": "baabd4090bcb0689",
+   "special_ids": {
+    "bos": null,
+    "eos": 151645,
+    "pad": 151643,
+    "turn_end": 151645,
+    "turn_start": 151644,
+    "unk": null
+   },
+   "template_sha": "1d357aa3a95cc57d98140d0ecbff42761eb749ef73eb9766535878259887b4d8",
+   "tokenizer_file_shas": {
+    "special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "7d015362b4abf59ddd4d286fbc10f899b5ce7b1689ddc2fa8876120267d931d0"
+   },
+   "turn_start_ids": [
+    151644
+   ]
+  },
+  "cascade/final/think": {
+   "accepted_kwargs": [
+    "enable_thinking"
+   ],
+   "bos_at_start": 0,
+   "close_ids": [
+    151668
+   ],
+   "default_system_line": "You are a helpful and harmless assistant.",
+   "generation_prefix_ids": [
+    608,
+    26865,
+    151645,
+    198,
+    151644,
+    77091,
+    198
+   ],
+   "generation_prefix_text": " /think<|im_end|>\n<|im_start|>assistant\n",
+   "kwargs_flip": {
+    "content": "unchanged",
+    "enable_thinking": "changes",
+    "reasoning_content": "unchanged"
+   },
+   "kwargs_named": [
+    "content",
+    "enable_thinking",
+    "reasoning_content"
+   ],
+   "no_tools_marker": null,
+   "open_ids": [
+    151667
+   ],
+   "role_names": [
+    "assistant",
+    "system",
+    "user"
+   ],
+   "spec_id": "51d38eb6fcf2fc44",
+   "special_ids": {
+    "bos": null,
+    "eos": 151645,
+    "pad": 151643,
+    "turn_end": 151645,
+    "turn_start": 151644,
+    "unk": null
+   },
+   "template_sha": "1d357aa3a95cc57d98140d0ecbff42761eb749ef73eb9766535878259887b4d8",
+   "tokenizer_file_shas": {
+    "special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "7d015362b4abf59ddd4d286fbc10f899b5ce7b1689ddc2fa8876120267d931d0"
+   },
+   "turn_start_ids": [
+    151644
+   ]
+  },
+  "cascade/ifrl/no_think": {
+   "accepted_kwargs": [
+    "enable_thinking"
+   ],
+   "bos_at_start": 0,
+   "close_ids": [
+    151668
+   ],
+   "default_system_line": "You are a helpful and harmless assistant.",
+   "generation_prefix_ids": [
+    608,
+    2152,
+    5854,
+    766,
+    151645,
+    198,
+    151644,
+    77091,
+    198
+   ],
+   "generation_prefix_text": " /no_think<|im_end|>\n<|im_start|>assistant\n",
+   "kwargs_flip": {
+    "content": "unchanged",
+    "enable_thinking": "changes",
+    "reasoning_content": "unchanged"
+   },
+   "kwargs_named": [
+    "content",
+    "enable_thinking",
+    "reasoning_content"
+   ],
+   "no_tools_marker": null,
+   "open_ids": [
+    151667
+   ],
+   "role_names": [
+    "assistant",
+    "system",
+    "user"
+   ],
+   "spec_id": "23f496963df461d0",
+   "special_ids": {
+    "bos": null,
+    "eos": 151645,
+    "pad": 151643,
+    "turn_end": 151645,
+    "turn_start": 151644,
+    "unk": null
+   },
+   "template_sha": "1d357aa3a95cc57d98140d0ecbff42761eb749ef73eb9766535878259887b4d8",
+   "tokenizer_file_shas": {
+    "special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "184ef642f5e66300b45a80410553f4cc62fa453a8f902cd9ba2c016d323aaac1"
+   },
+   "turn_start_ids": [
+    151644
+   ]
+  },
+  "cascade/ifrl/think": {
+   "accepted_kwargs": [
+    "enable_thinking"
+   ],
+   "bos_at_start": 0,
+   "close_ids": [
+    151668
+   ],
+   "default_system_line": "You are a helpful and harmless assistant.",
+   "generation_prefix_ids": [
+    608,
+    26865,
+    151645,
+    198,
+    151644,
+    77091,
+    198
+   ],
+   "generation_prefix_text": " /think<|im_end|>\n<|im_start|>assistant\n",
+   "kwargs_flip": {
+    "content": "unchanged",
+    "enable_thinking": "changes",
+    "reasoning_content": "unchanged"
+   },
+   "kwargs_named": [
+    "content",
+    "enable_thinking",
+    "reasoning_content"
+   ],
+   "no_tools_marker": null,
+   "open_ids": [
+    151667
+   ],
+   "role_names": [
+    "assistant",
+    "system",
+    "user"
+   ],
+   "spec_id": "b434cbbc9eeda75b",
+   "special_ids": {
+    "bos": null,
+    "eos": 151645,
+    "pad": 151643,
+    "turn_end": 151645,
+    "turn_start": 151644,
+    "unk": null
+   },
+   "template_sha": "1d357aa3a95cc57d98140d0ecbff42761eb749ef73eb9766535878259887b4d8",
+   "tokenizer_file_shas": {
+    "special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "184ef642f5e66300b45a80410553f4cc62fa453a8f902cd9ba2c016d323aaac1"
+   },
+   "turn_start_ids": [
+    151644
+   ]
+  },
+  "cascade/mathrl/no_think": {
+   "accepted_kwargs": [
+    "enable_thinking"
+   ],
+   "bos_at_start": 0,
+   "close_ids": [
+    151668
+   ],
+   "default_system_line": "You are a helpful and harmless assistant.",
+   "generation_prefix_ids": [
+    608,
+    2152,
+    5854,
+    766,
+    151645,
+    198,
+    151644,
+    77091,
+    198
+   ],
+   "generation_prefix_text": " /no_think<|im_end|>\n<|im_start|>assistant\n",
+   "kwargs_flip": {
+    "content": "unchanged",
+    "enable_thinking": "changes",
+    "reasoning_content": "unchanged"
+   },
+   "kwargs_named": [
+    "content",
+    "enable_thinking",
+    "reasoning_content"
+   ],
+   "no_tools_marker": null,
+   "open_ids": [
+    151667
+   ],
+   "role_names": [
+    "assistant",
+    "system",
+    "user"
+   ],
+   "spec_id": "0dc07050a1f27b3d",
+   "special_ids": {
+    "bos": null,
+    "eos": 151645,
+    "pad": 151643,
+    "turn_end": 151645,
+    "turn_start": 151644,
+    "unk": null
+   },
+   "template_sha": "1d357aa3a95cc57d98140d0ecbff42761eb749ef73eb9766535878259887b4d8",
+   "tokenizer_file_shas": {
+    "special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "184ef642f5e66300b45a80410553f4cc62fa453a8f902cd9ba2c016d323aaac1"
+   },
+   "turn_start_ids": [
+    151644
+   ]
+  },
+  "cascade/mathrl/think": {
+   "accepted_kwargs": [
+    "enable_thinking"
+   ],
+   "bos_at_start": 0,
+   "close_ids": [
+    151668
+   ],
+   "default_system_line": "You are a helpful and harmless assistant.",
+   "generation_prefix_ids": [
+    608,
+    26865,
+    151645,
+    198,
+    151644,
+    77091,
+    198
+   ],
+   "generation_prefix_text": " /think<|im_end|>\n<|im_start|>assistant\n",
+   "kwargs_flip": {
+    "content": "unchanged",
+    "enable_thinking": "changes",
+    "reasoning_content": "unchanged"
+   },
+   "kwargs_named": [
+    "content",
+    "enable_thinking",
+    "reasoning_content"
+   ],
+   "no_tools_marker": null,
+   "open_ids": [
+    151667
+   ],
+   "role_names": [
+    "assistant",
+    "system",
+    "user"
+   ],
+   "spec_id": "314ec27380b7ef10",
+   "special_ids": {
+    "bos": null,
+    "eos": 151645,
+    "pad": 151643,
+    "turn_end": 151645,
+    "turn_start": 151644,
+    "unk": null
+   },
+   "template_sha": "1d357aa3a95cc57d98140d0ecbff42761eb749ef73eb9766535878259887b4d8",
+   "tokenizer_file_shas": {
+    "special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "184ef642f5e66300b45a80410553f4cc62fa453a8f902cd9ba2c016d323aaac1"
+   },
+   "turn_start_ids": [
+    151644
+   ]
+  },
+  "cascade/qwen3_8b_base/no_think": {
+   "accepted_kwargs": [
+    "enable_thinking"
+   ],
+   "bos_at_start": 0,
+   "close_ids": [
+    151668
+   ],
+   "default_system_line": "You are a helpful and harmless assistant.",
+   "generation_prefix_ids": [
+    608,
+    2152,
+    5854,
+    766,
+    151645,
+    198,
+    151644,
+    77091,
+    198
+   ],
+   "generation_prefix_text": " /no_think<|im_end|>\n<|im_start|>assistant\n",
+   "kwargs_flip": {
+    "content": "unchanged",
+    "enable_thinking": "changes",
+    "reasoning_content": "unchanged"
+   },
+   "kwargs_named": [
+    "content",
+    "enable_thinking",
+    "reasoning_content"
+   ],
+   "no_tools_marker": null,
+   "open_ids": [
+    151667
+   ],
+   "role_names": [
+    "assistant",
+    "system",
+    "user"
+   ],
+   "spec_id": "a5a827d69fc824a1",
+   "special_ids": {
+    "bos": null,
+    "eos": 151643,
+    "pad": 151643,
+    "turn_end": 151645,
+    "turn_start": 151644,
+    "unk": null
+   },
+   "template_sha": "1d357aa3a95cc57d98140d0ecbff42761eb749ef73eb9766535878259887b4d8",
+   "tokenizer_file_shas": {
+    "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "tokenizer_config.json": "3c04ed3ca964ea2f6b2b5faf0dc4d31aec1cb1e8b4bcf63f402d295046b422b5"
+   },
+   "turn_start_ids": [
+    151644
+   ]
+  },
+  "cascade/rlhf/no_think": {
+   "accepted_kwargs": [
+    "enable_thinking"
+   ],
+   "bos_at_start": 0,
+   "close_ids": [
+    151668
+   ],
+   "default_system_line": "You are a helpful and harmless assistant.",
+   "generation_prefix_ids": [
+    608,
+    2152,
+    5854,
+    766,
+    151645,
+    198,
+    151644,
+    77091,
+    198
+   ],
+   "generation_prefix_text": " /no_think<|im_end|>\n<|im_start|>assistant\n",
+   "kwargs_flip": {
+    "content": "unchanged",
+    "enable_thinking": "changes",
+    "reasoning_content": "unchanged"
+   },
+   "kwargs_named": [
+    "content",
+    "enable_thinking",
+    "reasoning_content"
+   ],
+   "no_tools_marker": null,
+   "open_ids": [
+    151667
+   ],
+   "role_names": [
+    "assistant",
+    "system",
+    "user"
+   ],
+   "spec_id": "3efd71e9be93bcf5",
+   "special_ids": {
+    "bos": null,
+    "eos": 151645,
+    "pad": 151643,
+    "turn_end": 151645,
+    "turn_start": 151644,
+    "unk": null
+   },
+   "template_sha": "1d357aa3a95cc57d98140d0ecbff42761eb749ef73eb9766535878259887b4d8",
+   "tokenizer_file_shas": {
+    "special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "184ef642f5e66300b45a80410553f4cc62fa453a8f902cd9ba2c016d323aaac1"
+   },
+   "turn_start_ids": [
+    151644
+   ]
+  },
+  "cascade/rlhf/think": {
+   "accepted_kwargs": [
+    "enable_thinking"
+   ],
+   "bos_at_start": 0,
+   "close_ids": [
+    151668
+   ],
+   "default_system_line": "You are a helpful and harmless assistant.",
+   "generation_prefix_ids": [
+    608,
+    26865,
+    151645,
+    198,
+    151644,
+    77091,
+    198
+   ],
+   "generation_prefix_text": " /think<|im_end|>\n<|im_start|>assistant\n",
+   "kwargs_flip": {
+    "content": "unchanged",
+    "enable_thinking": "changes",
+    "reasoning_content": "unchanged"
+   },
+   "kwargs_named": [
+    "content",
+    "enable_thinking",
+    "reasoning_content"
+   ],
+   "no_tools_marker": null,
+   "open_ids": [
+    151667
+   ],
+   "role_names": [
+    "assistant",
+    "system",
+    "user"
+   ],
+   "spec_id": "c4056b3faaaa7226",
+   "special_ids": {
+    "bos": null,
+    "eos": 151645,
+    "pad": 151643,
+    "turn_end": 151645,
+    "turn_start": 151644,
+    "unk": null
+   },
+   "template_sha": "1d357aa3a95cc57d98140d0ecbff42761eb749ef73eb9766535878259887b4d8",
+   "tokenizer_file_shas": {
+    "special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "184ef642f5e66300b45a80410553f4cc62fa453a8f902cd9ba2c016d323aaac1"
+   },
+   "turn_start_ids": [
+    151644
+   ]
+  },
+  "cascade/sft/no_think": {
+   "accepted_kwargs": [
+    "enable_thinking"
+   ],
+   "bos_at_start": 0,
+   "close_ids": [
+    151668
+   ],
+   "default_system_line": "You are a helpful and harmless assistant.",
+   "generation_prefix_ids": [
+    608,
+    2152,
+    5854,
+    766,
+    151645,
+    198,
+    151644,
+    77091,
+    198
+   ],
+   "generation_prefix_text": " /no_think<|im_end|>\n<|im_start|>assistant\n",
+   "kwargs_flip": {
+    "content": "unchanged",
+    "enable_thinking": "changes",
+    "reasoning_content": "unchanged"
+   },
+   "kwargs_named": [
+    "content",
+    "enable_thinking",
+    "reasoning_content"
+   ],
+   "no_tools_marker": null,
+   "open_ids": [
+    151667
+   ],
+   "role_names": [
+    "assistant",
+    "system",
+    "user"
+   ],
+   "spec_id": "fdce75eccbbf8fa5",
+   "special_ids": {
+    "bos": null,
+    "eos": 151645,
+    "pad": 151643,
+    "turn_end": 151645,
+    "turn_start": 151644,
+    "unk": null
+   },
+   "template_sha": "1d357aa3a95cc57d98140d0ecbff42761eb749ef73eb9766535878259887b4d8",
+   "tokenizer_file_shas": {
+    "special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "253153d0738ceb4c668d2eff957714dd2bea0b56de772a9fdccd96cbf517e6a0"
+   },
+   "turn_start_ids": [
+    151644
+   ]
+  },
+  "cascade/sft/think": {
+   "accepted_kwargs": [
+    "enable_thinking"
+   ],
+   "bos_at_start": 0,
+   "close_ids": [
+    151668
+   ],
+   "default_system_line": "You are a helpful and harmless assistant.",
+   "generation_prefix_ids": [
+    608,
+    26865,
+    151645,
+    198,
+    151644,
+    77091,
+    198
+   ],
+   "generation_prefix_text": " /think<|im_end|>\n<|im_start|>assistant\n",
+   "kwargs_flip": {
+    "content": "unchanged",
+    "enable_thinking": "changes",
+    "reasoning_content": "unchanged"
+   },
+   "kwargs_named": [
+    "content",
+    "enable_thinking",
+    "reasoning_content"
+   ],
+   "no_tools_marker": null,
+   "open_ids": [
+    151667
+   ],
+   "role_names": [
+    "assistant",
+    "system",
+    "user"
+   ],
+   "spec_id": "9efe6f04a961c9ef",
+   "special_ids": {
+    "bos": null,
+    "eos": 151645,
+    "pad": 151643,
+    "turn_end": 151645,
+    "turn_start": 151644,
+    "unk": null
+   },
+   "template_sha": "1d357aa3a95cc57d98140d0ecbff42761eb749ef73eb9766535878259887b4d8",
+   "tokenizer_file_shas": {
+    "special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "253153d0738ceb4c668d2eff957714dd2bea0b56de772a9fdccd96cbf517e6a0"
+   },
+   "turn_start_ids": [
+    151644
+   ]
+  },
+  "llama31/8b_instruct": {
+   "accepted_kwargs": [],
+   "bos_at_start": 1,
+   "close_ids": [
+    524,
+    27963,
+    29
+   ],
+   "default_system_line": null,
+   "generation_prefix_ids": [
+    128009,
+    128006,
+    78191,
+    128007,
+    271
+   ],
+   "generation_prefix_text": "<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+   "kwargs_flip": {
+    "builtin_tools": "raises",
+    "custom_tools": "raises",
+    "date_string": "raises",
+    "enable_thinking": "unchanged",
+    "first_user_message": "unchanged",
+    "system_message": "unchanged",
+    "tool_call": "unchanged",
+    "tools_in_user_message": "unchanged"
+   },
+   "kwargs_named": [
+    "builtin_tools",
+    "custom_tools",
+    "date_string",
+    "first_user_message",
+    "system_message",
+    "tool_call",
+    "tools_in_user_message"
+   ],
+   "no_tools_marker": null,
+   "open_ids": [
+    14023,
+    771,
+    29
+   ],
+   "role_names": [
+    "assistant",
+    "system",
+    "user"
+   ],
+   "spec_id": "4d0edac2ee5ab2d8",
+   "special_ids": {
+    "bos": 128000,
+    "eos": 128009,
+    "pad": null,
+    "turn_end": 128009,
+    "turn_start": 128006,
+    "unk": null
+   },
+   "template_sha": "e10ca381b1ccc5cf9db52e371f3b6651576caee0a630b452e2816b2d404d4b65",
+   "tokenizer_file_shas": {
+    "tokenizer.json": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4",
+    "tokenizer_config.json": "177c7b61e616fecb84c17ce0591acb92c6c4d60e9ac5ababfb940ff23bbcd424"
+   },
+   "turn_start_ids": [
+    128006
+   ]
+  },
+  "olmo3/base_math": {
+   "accepted_kwargs": [],
+   "bos_at_start": 0,
+   "close_ids": [
+    524,
+    27963,
+    29
+   ],
+   "default_system_line": null,
+   "generation_prefix_ids": [
+    271,
+    29690,
+    311,
+    2231,
+    701,
+    4320,
+    389,
+    1202,
+    1866,
+    1584,
+    1306,
+    330,
+    16533,
+    3047
+   ],
+   "generation_prefix_text": "\n\nRemember to put your answer on its own line after \"Answer:\"",
+   "kwargs_flip": {
+    "enable_thinking": "unchanged"
+   },
+   "kwargs_named": [],
+   "no_tools_marker": null,
+   "open_ids": [
+    14023,
+    771,
+    29
+   ],
+   "role_names": [],
+   "spec_id": "54b0bc37f0684a1e",
+   "special_ids": {
+    "bos": null,
+    "eos": 100257,
+    "pad": 100277,
+    "turn_end": null,
+    "turn_start": null,
+    "unk": 100257
+   },
+   "template_sha": "bbff3bab94f2df1534d5971cb5ef47bfa3b06f1fb56965cc70dbcf261e72d3fa",
+   "tokenizer_file_shas": {
+    "special_tokens_map.json": "4cb2b52960bababa8ec27153831e405ef7811e3fad1226106e09c28e715cfb21",
+    "tokenizer.json": "73fd5254624f39a88e3faac6a8e11300fc3c735ed37880d4f4f08db898eaecca",
+    "tokenizer_config.json": "ffa5b2cfee6e73d5dc0a7d3b7e02eb6ed60a491dd782f2bd8ad2b4659b2aafc6"
+   },
+   "turn_start_ids": []
+  },
+  "olmo3/base_think": {
+   "accepted_kwargs": [],
+   "bos_at_start": 0,
+   "close_ids": [
+    524,
+    27963,
+    29
+   ],
+   "default_system_line": "You are OLMo, a helpful function-calling AI assistant built by Ai2. Your date cutoff is November 2024, and your model weights are available at https://huggingface.co/allenai.",
+   "generation_prefix_ids": [
+    100265,
+    198,
+    100264,
+    78191,
+    198,
+    14023,
+    771,
+    29
+   ],
+   "generation_prefix_text": "<|im_end|>\n<|im_start|>assistant\n<think>",
+   "kwargs_flip": {
+    "enable_thinking": "unchanged"
+   },
+   "kwargs_named": [],
+   "no_tools_marker": "You do not currently have access to any functions. <functions>",
+   "open_ids": [
+    14023,
+    771,
+    29
+   ],
+   "role_names": [
+    "assistant",
+    "system",
+    "user"
+   ],
+   "spec_id": "54221bb3a4fab95d",
+   "special_ids": {
+    "bos": null,
+    "eos": 100257,
+    "pad": 100277,
+    "turn_end": 100265,
+    "turn_start": 100264,
+    "unk": 100257
+   },
+   "template_sha": "6d549883b5ed12879e191845c256a30c7dfd4eced0a4f160060a3ea0199d9e3a",
+   "tokenizer_file_shas": {
+    "special_tokens_map.json": "4cb2b52960bababa8ec27153831e405ef7811e3fad1226106e09c28e715cfb21",
+    "tokenizer.json": "73fd5254624f39a88e3faac6a8e11300fc3c735ed37880d4f4f08db898eaecca",
+    "tokenizer_config.json": "ffa5b2cfee6e73d5dc0a7d3b7e02eb6ed60a491dd782f2bd8ad2b4659b2aafc6"
+   },
+   "turn_start_ids": [
+    100264
+   ]
+  },
+  "olmo3/rlzero_code": {
+   "accepted_kwargs": [],
+   "bos_at_start": 0,
+   "close_ids": [
+    100269
+   ],
+   "default_system_line": "You are OLMo, a helpful function-calling AI assistant built by Ai2. Your date cutoff is November 2024, and your model weights are available at https://huggingface.co/allenai.",
+   "generation_prefix_ids": [
+    100265,
+    198,
+    100264,
+    78191,
+    198,
+    100268
+   ],
+   "generation_prefix_text": "<|im_end|>\n<|im_start|>assistant\n<think>",
+   "kwargs_flip": {
+    "enable_thinking": "unchanged"
+   },
+   "kwargs_named": [],
+   "no_tools_marker": "You do not currently have access to any functions. <functions>",
+   "open_ids": [
+    100268
+   ],
+   "role_names": [
+    "assistant",
+    "system",
+    "user"
+   ],
+   "spec_id": "f11839a79b268055",
+   "special_ids": {
+    "bos": 100257,
+    "eos": 100257,
+    "pad": 100277,
+    "turn_end": 100265,
+    "turn_start": 100264,
+    "unk": 100257
+   },
+   "template_sha": "6d549883b5ed12879e191845c256a30c7dfd4eced0a4f160060a3ea0199d9e3a",
+   "tokenizer_file_shas": {
+    "special_tokens_map.json": "78afb564e81264029b25f9caf24bda2521d5bdaeff5cd3fdbc01d3da2e8ce2f2",
+    "tokenizer.json": "a8c8767b8e1e295680be0cd1f6b758c6329df18aaa985fd5ccd730a52d43ac9b",
+    "tokenizer_config.json": "5b602e67ef60c878dc2c1bc626532171b4e17034a95b97fdb7c95931943921cc"
+   },
+   "turn_start_ids": [
+    100264
+   ]
+  },
+  "olmo3/rlzero_general": {
+   "accepted_kwargs": [],
+   "bos_at_start": 0,
+   "close_ids": [
+    100269
+   ],
+   "default_system_line": "You are OLMo, a helpful function-calling AI assistant built by Ai2. Your date cutoff is November 2024, and your model weights are available at https://huggingface.co/allenai.",
+   "generation_prefix_ids": [
+    100265,
+    198,
+    100264,
+    78191,
+    198,
+    100268
+   ],
+   "generation_prefix_text": "<|im_end|>\n<|im_start|>assistant\n<think>",
+   "kwargs_flip": {
+    "enable_thinking": "unchanged"
+   },
+   "kwargs_named": [],
+   "no_tools_marker": "You do not currently have access to any functions. <functions>",
+   "open_ids": [
+    100268
+   ],
+   "role_names": [
+    "assistant",
+    "system",
+    "user"
+   ],
+   "spec_id": "217fbf51e5dfb238",
+   "special_ids": {
+    "bos": 100257,
+    "eos": 100257,
+    "pad": 100277,
+    "turn_end": 100265,
+    "turn_start": 100264,
+    "unk": 100257
+   },
+   "template_sha": "6d549883b5ed12879e191845c256a30c7dfd4eced0a4f160060a3ea0199d9e3a",
+   "tokenizer_file_shas": {
+    "special_tokens_map.json": "78afb564e81264029b25f9caf24bda2521d5bdaeff5cd3fdbc01d3da2e8ce2f2",
+    "tokenizer.json": "a8c8767b8e1e295680be0cd1f6b758c6329df18aaa985fd5ccd730a52d43ac9b",
+    "tokenizer_config.json": "5b602e67ef60c878dc2c1bc626532171b4e17034a95b97fdb7c95931943921cc"
+   },
+   "turn_start_ids": [
+    100264
+   ]
+  },
+  "olmo3/rlzero_if": {
+   "accepted_kwargs": [],
+   "bos_at_start": 0,
+   "close_ids": [
+    100269
+   ],
+   "default_system_line": "You are OLMo, a helpful function-calling AI assistant built by Ai2. Your date cutoff is November 2024, and your model weights are available at https://huggingface.co/allenai.",
+   "generation_prefix_ids": [
+    100265,
+    198,
+    100264,
+    78191,
+    198,
+    100268
+   ],
+   "generation_prefix_text": "<|im_end|>\n<|im_start|>assistant\n<think>",
+   "kwargs_flip": {
+    "enable_thinking": "unchanged"
+   },
+   "kwargs_named": [],
+   "no_tools_marker": "You do not currently have access to any functions. <functions>",
+   "open_ids": [
+    100268
+   ],
+   "role_names": [
+    "assistant",
+    "system",
+    "user"
+   ],
+   "spec_id": "e9fc17a4cde71e6f",
+   "special_ids": {
+    "bos": 100257,
+    "eos": 100257,
+    "pad": 100277,
+    "turn_end": 100265,
+    "turn_start": 100264,
+    "unk": 100257
+   },
+   "template_sha": "6d549883b5ed12879e191845c256a30c7dfd4eced0a4f160060a3ea0199d9e3a",
+   "tokenizer_file_shas": {
+    "special_tokens_map.json": "78afb564e81264029b25f9caf24bda2521d5bdaeff5cd3fdbc01d3da2e8ce2f2",
+    "tokenizer.json": "a8c8767b8e1e295680be0cd1f6b758c6329df18aaa985fd5ccd730a52d43ac9b",
+    "tokenizer_config.json": "5b602e67ef60c878dc2c1bc626532171b4e17034a95b97fdb7c95931943921cc"
+   },
+   "turn_start_ids": [
+    100264
+   ]
+  },
+  "olmo3/rlzero_math": {
+   "accepted_kwargs": [],
+   "bos_at_start": 0,
+   "close_ids": [
+    100269
+   ],
+   "default_system_line": null,
+   "generation_prefix_ids": [
+    271,
+    29690,
+    311,
+    2231,
+    701,
+    4320,
+    389,
+    1202,
+    1866,
+    1584,
+    1306,
+    330,
+    16533,
+    3047
+   ],
+   "generation_prefix_text": "\n\nRemember to put your answer on its own line after \"Answer:\"",
+   "kwargs_flip": {
+    "enable_thinking": "unchanged"
+   },
+   "kwargs_named": [],
+   "no_tools_marker": null,
+   "open_ids": [
+    100268
+   ],
+   "role_names": [],
+   "spec_id": "d4cf20acf80de7bc",
+   "special_ids": {
+    "bos": 100257,
+    "eos": 100257,
+    "pad": 100277,
+    "turn_end": null,
+    "turn_start": null,
+    "unk": 100257
+   },
+   "template_sha": "bbff3bab94f2df1534d5971cb5ef47bfa3b06f1fb56965cc70dbcf261e72d3fa",
+   "tokenizer_file_shas": {
+    "special_tokens_map.json": "78afb564e81264029b25f9caf24bda2521d5bdaeff5cd3fdbc01d3da2e8ce2f2",
+    "tokenizer.json": "a8c8767b8e1e295680be0cd1f6b758c6329df18aaa985fd5ccd730a52d43ac9b",
+    "tokenizer_config.json": "5b602e67ef60c878dc2c1bc626532171b4e17034a95b97fdb7c95931943921cc"
+   },
+   "turn_start_ids": []
+  },
+  "olmo3/think": {
+   "accepted_kwargs": [],
+   "bos_at_start": 0,
+   "close_ids": [
+    524,
+    27963,
+    29
+   ],
+   "default_system_line": "You are OLMo, a helpful function-calling AI assistant built by Ai2. Your date cutoff is November 2024, and your model weights are available at https://huggingface.co/allenai.",
+   "generation_prefix_ids": [
+    100265,
+    198,
+    100264,
+    78191,
+    198,
+    14023,
+    771,
+    29
+   ],
+   "generation_prefix_text": "<|im_end|>\n<|im_start|>assistant\n<think>",
+   "kwargs_flip": {
+    "enable_thinking": "unchanged"
+   },
+   "kwargs_named": [],
+   "no_tools_marker": "You do not currently have access to any functions. <functions>",
+   "open_ids": [
+    14023,
+    771,
+    29
+   ],
+   "role_names": [
+    "assistant",
+    "system",
+    "user"
+   ],
+   "spec_id": "71a8b1acd29e8a2e",
+   "special_ids": {
+    "bos": 100257,
+    "eos": 100257,
+    "pad": 100277,
+    "turn_end": 100265,
+    "turn_start": 100264,
+    "unk": 100257
+   },
+   "template_sha": "6d549883b5ed12879e191845c256a30c7dfd4eced0a4f160060a3ea0199d9e3a",
+   "tokenizer_file_shas": {
+    "special_tokens_map.json": "78afb564e81264029b25f9caf24bda2521d5bdaeff5cd3fdbc01d3da2e8ce2f2",
+    "tokenizer.json": "73fd5254624f39a88e3faac6a8e11300fc3c735ed37880d4f4f08db898eaecca",
+    "tokenizer_config.json": "e7ea56bef75ad5257b13dc09bfe3033e8cd742eb42233e9b57726d53be9f7ead"
+   },
+   "turn_start_ids": [
+    100264
+   ]
+  },
+  "olmo3/think_dpo": {
+   "accepted_kwargs": [],
+   "bos_at_start": 0,
+   "close_ids": [
+    524,
+    27963,
+    29
+   ],
+   "default_system_line": "You are OLMo, a helpful function-calling AI assistant built by Ai2. Your date cutoff is November 2024, and your model weights are available at https://huggingface.co/allenai.",
+   "generation_prefix_ids": [
+    100265,
+    198,
+    100264,
+    78191,
+    198,
+    14023,
+    771,
+    29
+   ],
+   "generation_prefix_text": "<|im_end|>\n<|im_start|>assistant\n<think>",
+   "kwargs_flip": {
+    "enable_thinking": "unchanged"
+   },
+   "kwargs_named": [],
+   "no_tools_marker": "You do not currently have access to any functions. <functions>",
+   "open_ids": [
+    14023,
+    771,
+    29
+   ],
+   "role_names": [
+    "assistant",
+    "system",
+    "user"
+   ],
+   "spec_id": "ee52ff0f56cc484d",
+   "special_ids": {
+    "bos": 100257,
+    "eos": 100257,
+    "pad": 100277,
+    "turn_end": 100265,
+    "turn_start": 100264,
+    "unk": 100257
+   },
+   "template_sha": "6d549883b5ed12879e191845c256a30c7dfd4eced0a4f160060a3ea0199d9e3a",
+   "tokenizer_file_shas": {
+    "special_tokens_map.json": "78afb564e81264029b25f9caf24bda2521d5bdaeff5cd3fdbc01d3da2e8ce2f2",
+    "tokenizer.json": "73fd5254624f39a88e3faac6a8e11300fc3c735ed37880d4f4f08db898eaecca",
+    "tokenizer_config.json": "e7ea56bef75ad5257b13dc09bfe3033e8cd742eb42233e9b57726d53be9f7ead"
+   },
+   "turn_start_ids": [
+    100264
+   ]
+  },
+  "olmo3/think_sft": {
+   "accepted_kwargs": [],
+   "bos_at_start": 0,
+   "close_ids": [
+    524,
+    27963,
+    29
+   ],
+   "default_system_line": "You are OLMo, a helpful function-calling AI assistant built by Ai2. Your date cutoff is November 2024, and your model weights are available at https://huggingface.co/allenai.",
+   "generation_prefix_ids": [
+    100265,
+    198,
+    100264,
+    78191,
+    198,
+    14023,
+    771,
+    29
+   ],
+   "generation_prefix_text": "<|im_end|>\n<|im_start|>assistant\n<think>",
+   "kwargs_flip": {
+    "enable_thinking": "unchanged"
+   },
+   "kwargs_named": [],
+   "no_tools_marker": "You do not currently have access to any functions. <functions>",
+   "open_ids": [
+    14023,
+    771,
+    29
+   ],
+   "role_names": [
+    "assistant",
+    "system",
+    "user"
+   ],
+   "spec_id": "ef16442fc4aba0b3",
+   "special_ids": {
+    "bos": 100257,
+    "eos": 100257,
+    "pad": 100277,
+    "turn_end": 100265,
+    "turn_start": 100264,
+    "unk": 100257
+   },
+   "template_sha": "6d549883b5ed12879e191845c256a30c7dfd4eced0a4f160060a3ea0199d9e3a",
+   "tokenizer_file_shas": {
+    "special_tokens_map.json": "8abae158f82012899936754210d899b34090847e083f6ba6d12e357bf0e85d19",
+    "tokenizer.json": "ae12cb7a47a48bba7131225fb776a7c1c138747986affea7902b5d9966a49891",
+    "tokenizer_config.json": "768461353d27a100fe02df01fc2a046fa159217856046eb94d59578838dea5c0"
+   },
+   "turn_start_ids": [
+    100264
+   ]
+  },
+  "qwen3/0p6b_mlx_smoke": {
+   "accepted_kwargs": [
+    "enable_thinking"
+   ],
+   "bos_at_start": 0,
+   "close_ids": [
+    151668
+   ],
+   "default_system_line": null,
+   "generation_prefix_ids": [
+    151645,
+    198,
+    151644,
+    77091,
+    198,
+    151667,
+    271,
+    151668,
+    271
+   ],
+   "generation_prefix_text": "<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "kwargs_flip": {
+    "content": "unchanged",
+    "enable_thinking": "changes",
+    "reasoning_content": "unchanged"
+   },
+   "kwargs_named": [
+    "content",
+    "enable_thinking",
+    "reasoning_content"
+   ],
+   "no_tools_marker": null,
+   "open_ids": [
+    151667
+   ],
+   "role_names": [
+    "assistant",
+    "system",
+    "user"
+   ],
+   "spec_id": "769accc379b08f79",
+   "special_ids": {
+    "bos": null,
+    "eos": 151645,
+    "pad": 151643,
+    "turn_end": 151645,
+    "turn_start": 151644,
+    "unk": null
+   },
+   "template_sha": "87a2728cb8dc9fe424d624542f6060ec05a1d285ebbec578bb078900e33396b5",
+   "tokenizer_file_shas": {
+    "special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "253153d0738ceb4c668d2eff957714dd2bea0b56de772a9fdccd96cbf517e6a0"
+   },
+   "turn_start_ids": [
+    151644
+   ]
+  },
+  "qwen3/0p6b_smoke": {
+   "accepted_kwargs": [
+    "enable_thinking"
+   ],
+   "bos_at_start": 0,
+   "close_ids": [
+    151668
+   ],
+   "default_system_line": null,
+   "generation_prefix_ids": [
+    151645,
+    198,
+    151644,
+    77091,
+    198,
+    151667,
+    271,
+    151668,
+    271
+   ],
+   "generation_prefix_text": "<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "kwargs_flip": {
+    "content": "unchanged",
+    "enable_thinking": "changes",
+    "reasoning_content": "unchanged"
+   },
+   "kwargs_named": [
+    "content",
+    "enable_thinking",
+    "reasoning_content"
+   ],
+   "no_tools_marker": null,
+   "open_ids": [
+    151667
+   ],
+   "role_names": [
+    "assistant",
+    "system",
+    "user"
+   ],
+   "spec_id": "ea68fb3f083ac957",
+   "special_ids": {
+    "bos": null,
+    "eos": 151645,
+    "pad": 151643,
+    "turn_end": 151645,
+    "turn_start": 151644,
+    "unk": null
+   },
+   "template_sha": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+   "tokenizer_file_shas": {
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+   },
+   "turn_start_ids": [
+    151644
+   ]
+  },
+  "qwen3/1p7b": {
+   "accepted_kwargs": [
+    "enable_thinking"
+   ],
+   "bos_at_start": 0,
+   "close_ids": [
+    151668
+   ],
+   "default_system_line": null,
+   "generation_prefix_ids": [
+    151645,
+    198,
+    151644,
+    77091,
+    198
+   ],
+   "generation_prefix_text": "<|im_end|>\n<|im_start|>assistant\n",
+   "kwargs_flip": {
+    "content": "unchanged",
+    "enable_thinking": "changes",
+    "reasoning_content": "unchanged"
+   },
+   "kwargs_named": [
+    "content",
+    "enable_thinking",
+    "reasoning_content"
+   ],
+   "no_tools_marker": null,
+   "open_ids": [
+    151667
+   ],
+   "role_names": [
+    "assistant",
+    "system",
+    "user"
+   ],
+   "spec_id": "54405f4a6a21a85c",
+   "special_ids": {
+    "bos": null,
+    "eos": 151645,
+    "pad": 151643,
+    "turn_end": 151645,
+    "turn_start": 151644,
+    "unk": null
+   },
+   "template_sha": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+   "tokenizer_file_shas": {
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+   },
+   "turn_start_ids": [
+    151644
+   ]
+  },
+  "qwen3/4b": {
+   "accepted_kwargs": [
+    "enable_thinking"
+   ],
+   "bos_at_start": 0,
+   "close_ids": [
+    151668
+   ],
+   "default_system_line": null,
+   "generation_prefix_ids": [
+    151645,
+    198,
+    151644,
+    77091,
+    198
+   ],
+   "generation_prefix_text": "<|im_end|>\n<|im_start|>assistant\n",
+   "kwargs_flip": {
+    "content": "unchanged",
+    "enable_thinking": "changes",
+    "reasoning_content": "unchanged"
+   },
+   "kwargs_named": [
+    "content",
+    "enable_thinking",
+    "reasoning_content"
+   ],
+   "no_tools_marker": null,
+   "open_ids": [
+    151667
+   ],
+   "role_names": [
+    "assistant",
+    "system",
+    "user"
+   ],
+   "spec_id": "e2bd0ba8f7b8e4e7",
+   "special_ids": {
+    "bos": null,
+    "eos": 151645,
+    "pad": 151643,
+    "turn_end": 151645,
+    "turn_start": 151644,
+    "unk": null
+   },
+   "template_sha": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+   "tokenizer_file_shas": {
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+   },
+   "turn_start_ids": [
+    151644
+   ]
+  },
+  "qwen3/c_grpo": {
+   "accepted_kwargs": [
+    "enable_thinking"
+   ],
+   "bos_at_start": 0,
+   "close_ids": [
+    151668
+   ],
+   "default_system_line": null,
+   "generation_prefix_ids": [
+    151645,
+    198,
+    151644,
+    77091,
+    198
+   ],
+   "generation_prefix_text": "<|im_end|>\n<|im_start|>assistant\n",
+   "kwargs_flip": {
+    "content": "unchanged",
+    "enable_thinking": "changes",
+    "reasoning_content": "unchanged"
+   },
+   "kwargs_named": [
+    "content",
+    "enable_thinking",
+    "reasoning_content"
+   ],
+   "no_tools_marker": null,
+   "open_ids": [
+    151667
+   ],
+   "role_names": [
+    "assistant",
+    "system",
+    "user"
+   ],
+   "spec_id": "92acc6210f9f922f",
+   "special_ids": {
+    "bos": null,
+    "eos": 151645,
+    "pad": 151643,
+    "turn_end": 151645,
+    "turn_start": 151644,
+    "unk": null
+   },
+   "template_sha": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+   "tokenizer_file_shas": {
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+   },
+   "turn_start_ids": [
+    151644
+   ]
+  },
+  "qwen3/c_raft": {
+   "accepted_kwargs": [
+    "enable_thinking"
+   ],
+   "bos_at_start": 0,
+   "close_ids": [
+    151668
+   ],
+   "default_system_line": null,
+   "generation_prefix_ids": [
+    151645,
+    198,
+    151644,
+    77091,
+    198
+   ],
+   "generation_prefix_text": "<|im_end|>\n<|im_start|>assistant\n",
+   "kwargs_flip": {
+    "content": "unchanged",
+    "enable_thinking": "changes",
+    "reasoning_content": "unchanged"
+   },
+   "kwargs_named": [
+    "content",
+    "enable_thinking",
+    "reasoning_content"
+   ],
+   "no_tools_marker": null,
+   "open_ids": [
+    151667
+   ],
+   "role_names": [
+    "assistant",
+    "system",
+    "user"
+   ],
+   "spec_id": "92acc6210f9f922f",
+   "special_ids": {
+    "bos": null,
+    "eos": 151645,
+    "pad": 151643,
+    "turn_end": 151645,
+    "turn_start": 151644,
+    "unk": null
+   },
+   "template_sha": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+   "tokenizer_file_shas": {
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+   },
+   "turn_start_ids": [
+    151644
+   ]
+  },
+  "tulu3/8b_ppo": {
+   "accepted_kwargs": [],
+   "bos_at_start": 0,
+   "close_ids": [
+    524,
+    27963,
+    29
+   ],
+   "default_system_line": null,
+   "generation_prefix_ids": [
+    198,
+    27,
+    91,
+    78191,
+    91,
+    397
+   ],
+   "generation_prefix_text": "\n<|assistant|>\n",
+   "kwargs_flip": {
+    "enable_thinking": "unchanged"
+   },
+   "kwargs_named": [],
+   "no_tools_marker": null,
+   "open_ids": [
+    14023,
+    771,
+    29
+   ],
+   "role_names": [
+    "<|assistant|>",
+    "<|system|>",
+    "<|user|>"
+   ],
+   "spec_id": "0afdffaebd58b6e9",
+   "special_ids": {
+    "bos": 128000,
+    "eos": 128001,
+    "pad": 128256,
+    "turn_end": 128001,
+    "turn_start": null,
+    "unk": null
+   },
+   "template_sha": "ac7498a36a719da630e99d48e6ebc4409de85a77556c2b6159eeb735bcbd11df",
+   "tokenizer_file_shas": {
+    "special_tokens_map.json": "2c732a19d798dfa2591e920df4c34d0c801f2c55bc5b0ba119594e836ba97eaf",
+    "tokenizer.json": "a62e4ccfd19daf6c53aeca2c0f4474cb7d784bf1ee999f0214715615f46c802c",
+    "tokenizer_config.json": "23345dedb8c151b92b97f4f92a7bbe2116abdebfd1f7c9ff0c1459f4e044a457"
+   },
+   "turn_start_ids": []
+  },
+  "tulu3/dpo": {
+   "accepted_kwargs": [],
+   "bos_at_start": 0,
+   "close_ids": [
+    524,
+    27963,
+    29
+   ],
+   "default_system_line": null,
+   "generation_prefix_ids": [
+    198,
+    27,
+    91,
+    78191,
+    91,
+    397
+   ],
+   "generation_prefix_text": "\n<|assistant|>\n",
+   "kwargs_flip": {
+    "enable_thinking": "unchanged"
+   },
+   "kwargs_named": [],
+   "no_tools_marker": null,
+   "open_ids": [
+    14023,
+    771,
+    29
+   ],
+   "role_names": [
+    "<|assistant|>",
+    "<|system|>",
+    "<|user|>"
+   ],
+   "spec_id": "939ba108a2c3316a",
+   "special_ids": {
+    "bos": 128000,
+    "eos": 128001,
+    "pad": 128256,
+    "turn_end": 128001,
+    "turn_start": null,
+    "unk": null
+   },
+   "template_sha": "ac7498a36a719da630e99d48e6ebc4409de85a77556c2b6159eeb735bcbd11df",
+   "tokenizer_file_shas": {
+    "special_tokens_map.json": "2c732a19d798dfa2591e920df4c34d0c801f2c55bc5b0ba119594e836ba97eaf",
+    "tokenizer.json": "a62e4ccfd19daf6c53aeca2c0f4474cb7d784bf1ee999f0214715615f46c802c",
+    "tokenizer_config.json": "23345dedb8c151b92b97f4f92a7bbe2116abdebfd1f7c9ff0c1459f4e044a457"
+   },
+   "turn_start_ids": []
+  },
+  "tulu3/sft": {
+   "accepted_kwargs": [],
+   "bos_at_start": 0,
+   "close_ids": [
+    524,
+    27963,
+    29
+   ],
+   "default_system_line": null,
+   "generation_prefix_ids": [
+    198,
+    27,
+    91,
+    78191,
+    91,
+    397
+   ],
+   "generation_prefix_text": "\n<|assistant|>\n",
+   "kwargs_flip": {
+    "enable_thinking": "unchanged"
+   },
+   "kwargs_named": [],
+   "no_tools_marker": null,
+   "open_ids": [
+    14023,
+    771,
+    29
+   ],
+   "role_names": [
+    "<|assistant|>",
+    "<|system|>",
+    "<|user|>"
+   ],
+   "spec_id": "98656219ebf8b218",
+   "special_ids": {
+    "bos": 128000,
+    "eos": 128001,
+    "pad": 128256,
+    "turn_end": 128001,
+    "turn_start": null,
+    "unk": null
+   },
+   "template_sha": "ac7498a36a719da630e99d48e6ebc4409de85a77556c2b6159eeb735bcbd11df",
+   "tokenizer_file_shas": {
+    "tokenizer.json": "a62e4ccfd19daf6c53aeca2c0f4474cb7d784bf1ee999f0214715615f46c802c",
+    "tokenizer_config.json": "23345dedb8c151b92b97f4f92a7bbe2116abdebfd1f7c9ff0c1459f4e044a457"
+   },
+   "turn_start_ids": []
+  },
+  "tulu31/8b_grpo": {
+   "accepted_kwargs": [],
+   "bos_at_start": 0,
+   "close_ids": [
+    524,
+    27963,
+    29
+   ],
+   "default_system_line": null,
+   "generation_prefix_ids": [
+    198,
+    27,
+    91,
+    78191,
+    91,
+    397
+   ],
+   "generation_prefix_text": "\n<|assistant|>\n",
+   "kwargs_flip": {
+    "enable_thinking": "unchanged"
+   },
+   "kwargs_named": [],
+   "no_tools_marker": null,
+   "open_ids": [
+    14023,
+    771,
+    29
+   ],
+   "role_names": [
+    "<|assistant|>",
+    "<|system|>",
+    "<|user|>"
+   ],
+   "spec_id": "e3069b983308bee7",
+   "special_ids": {
+    "bos": 128000,
+    "eos": 128001,
+    "pad": 128256,
+    "turn_end": 128001,
+    "turn_start": null,
+    "unk": null
+   },
+   "template_sha": "ac7498a36a719da630e99d48e6ebc4409de85a77556c2b6159eeb735bcbd11df",
+   "tokenizer_file_shas": {
+    "special_tokens_map.json": "2c732a19d798dfa2591e920df4c34d0c801f2c55bc5b0ba119594e836ba97eaf",
+    "tokenizer.json": "9400df98529060210393c40f08cb127f7c0df584338b3fbfdba8cf82a33c1ade",
+    "tokenizer_config.json": "06a3ace51e6b848dfb57994fe7a3118ffb26e2fecdfd648784f2e5a9468be955"
+   },
+   "turn_start_ids": []
+  }
+ },
+ "note": "derived by withholding/typed/registry.py from the cached tokenizer files at each entry's pinned revisions; load_registry() derives them again and refuses any value that differs",
+ "pinned_on": "2026-10-15",
+ "version": 1
+}

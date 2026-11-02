@@ -1,0 +1,43 @@
+{
+ "path": "notes/typed_layer_decisions_2026-10-15.md",
+ "confirmed_on": "2026-10-23",
+ "confirmation_sha": "3805ee892281319af4e03bec8388f2a2c2534bd6281fc34cffe17e84172505d7",
+ "confirmation_lines": [
+  "Confirmed: Ahmed Bakr, 2026-10-17. \"I agree with all of the other decisions\" (his words, chat of 17 October 2026, replying to the twelve-item list of what waited on him; item 1 of that list was this line: confirm OD-1 to OD-5 and D1 to D16 as recorded, and both applications, the inner-open cut keeping the text before the open and region pairs counted rather than declared; the same reply adopted the recommendations of items 4, 5, 8 and 10 of that list, recorded today as D17 to D21). Written into this file by the session the same day under his standing delegation (Authority, above); no record was changed first.",
+  "Confirmed: Ahmed Bakr, 2026-10-18. \"okay I confirm yeah\" (his words, chat of 18 October 2026, answering the proposed text \"Confirmed D22: the reader study reads the pinned legacy numbered view and takes the class-level construct; traces whose typed view differs under step 2r are re-read under the typed view\"; this line confirms D22 as recorded below and re-pins OD-1 to OD-5 and D1 to D21 unchanged). Written into this file by the session the same day under his standing delegation.",
+  "Confirmed: Ahmed Bakr, 2026-10-21. \"go with the recommendation and start the runs, we have enough credits\" (his words, chat of 21 October 2026, as the orchestrating session relayed them, answering the (i)/(ii) question on step 2r's pending item (3): (i) keep the line \"The text above stopped at the generation length limit.\" on a no-tags turn cut at the generation cap in the typed reader view, or (ii), the recommendation, no closing note, so readers read the cut text as delivered, consistent with D18; this line confirms D23 as recorded below, option (ii), and re-pins OD-1 to OD-5 and D1 to D22 unchanged). Written into this file by the session the same day under his standing delegation.",
+  "Confirmed: Ahmed Bakr, 2026-10-23. \"we still have [balance withheld from this public copy] on the modal account you can run whatever will be within those limits and boundaries! and for the other parts espacially for the extentions and runs that is needed, we need to do whatever will be best for the paper work and needed runs, and for the 1.3 GB of runner-row copies go with the best option\" (his words, chat of 23 October 2026, as the orchestrating session relayed them, after the step 3 Llama batch ran on the Modal workspace of that batch and its fix rounds reported the label-blind echo on the no-claim stratum and the two-axis draft of D24 (design Revisions 23 and 24): a go for GPU runs on that workspace within the dashboard balance of that day, and a delegation on the extensions and runs the records left owner-pending; this line enters D24 and D25 as recorded below, both adopted under that delegation (written by the session; he did not read their text first), and re-pins OD-1 to OD-5 and D1 to D23 unchanged). Written into this file by the session the same day under his standing delegation."
+ ],
+ "record_shas": {
+  "OD-1": "fceead8cc21712117185427a0a3a40f0af0c25b039bade4ac967fc6450b5dd39",
+  "OD-2": "b92fb3124749fa31ffd593c4f427d943f4525f7b5fbbf41a58323e38e2b48539",
+  "OD-3": "e23c2bf56a1437d4aa051c7eecf685627a8f90811764449fdaebdc333d728422",
+  "OD-4": "8ced268afd09d1dcf00bb3b9bae05ee307d8a7b627524f969a9dd0fc317866df",
+  "OD-5": "842c53e1a994e0cc11589c57560a199b28122fb6253249551eebdc9a33e309f6",
+  "D1": "ba6af1167791b7283ea74c0a2b8f817f6039bfa814b0c177aece3d84331bddd7",
+  "D2": "ce7b951a193f0e73bcb16632a8a1037fd887f9eb22a602f43a4a0674096df788",
+  "D3": "f2742c9ea8c43967ee0a13b774e9538bf1cd392ea532a2d057d792a41efd54da",
+  "D4": "ffecd8092c038fb47912e730735ba7f1c0966f36a50bf17d7d0907825a662c09",
+  "D5": "49fa3f07ec7c822a1019e34cbd293b4fec71864ece269b9f66da021492ba9265",
+  "D6": "a8a7c8441cc8ed4c62428f38aec00d1d608bd10910500a6e85eaf14bcf4e91dc",
+  "D7": "0d91e00b0bc013d60abebad1283035d4ba3eb45366b6e577b602f27411d46bac",
+  "D8": "05beb48d693911b2e4b6ee99978cd164047e41fbf590f8391aa7cba09c6332d1",
+  "D9": "aa085b4a25ca47f67048ccf5ff963f913a349a3e29afd3b3d6d450d85b7943e3",
+  "D10": "6c148eebe2e543be895897ce7bc9e2473e0219c7c63c43ca74a0c064fe474f68",
+  "D11": "b763760eab513546dbd98e2b53dc87b78b47a68322feb37395166294a7759350",
+  "D12": "69861b06c32b8169a95ede64fb508ac032097de9be4fd3d098a6c09314c5927f",
+  "D13": "135965a1055e53de8b799141959b0a5e8383d1856b57fa10de12de2b1d30b9cb",
+  "D14": "357667bff7d961720a3727436773d968244417182352695329ad504d8c916035",
+  "D15": "de65db696754d6c48247e841dbe4477fd54f1e1983ebaa73877714795c9ec9f7",
+  "D16": "30066837ba98198864c379da8a8eb13ec33ee5c36f60624ff4c853cf447f100b",
+  "D17": "8e8167ded5c046b712f279f5dcf67fe36b80bc16c90cf387b7f845bc61ce3e8a",
+  "D18": "2aa2d2707102e4e8ee141d86d3aea3c06d5b27c2ec0befcfc31556f92ef7abd9",
+  "D19": "262e878f443785eae1ba6391128c180e64e70774f92f08d42c33a4c6d7d236c3",
+  "D20": "20091275779bf3834ab652590b5c6496f4387b8b37980b3c531cdb8cb7da329e",
+  "D21": "3a4cd9e2721fca64ca48ddc5599bec200f10ed32f0d5aba37e590b59e0ffe6d5",
+  "D22": "34f8667c8baaf1a431c5c6d5d3a6dd7079d490546e3331816e060f46fcfef489",
+  "D23": "2a9358d36abd3f066b606747f4d64cd056b85b6c13223d8e465592760213ec58",
+  "D24": "ee152f412fed2c8899a01bd51432f6965982d429dd2bdc8fdcbe1449ad920625",
+  "D25": "16a6162bc6d8a15220b8956a78575e8385101f6f9819fe42729f88987f22ef22"
+ }
+}

@@ -1,0 +1,5 @@
+.venv/
+regenerated/
+__pycache__/
+.tokenizer-cache/
+.DS_Store

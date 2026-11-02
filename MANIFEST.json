@@ -1,0 +1,350 @@
+{
+ "export": "AbstentionBench reproduction on T\u00fclu 3 8B (SFT, DPO, RLVR): code and scores behind report/REPRODUCTION_REPORT_2026-10-30.md",
+ "built": "2026-11-02 ; revised 2026-11-02 after verification (redaction, licence, corrections, the 21-dataset helper)",
+ "source_repository": "the owner's private research repository (withholding)",
+ "source_commit": "1f167c248e93b9047701507f9b328df2f5e50946",
+ "file_count": 48,
+ "total_bytes": 39147624,
+ "note": "MANIFEST.json is not listed in itself. GPQA rows are removed from every file that carries question or answer text; the score files keep their GPQA rows because they hold no question or answer text.",
+ "files": [
+  {
+   "path": "README.md",
+   "sha256": "25579d40cc02c91db997306865ae3e8cbc230f7c246ee63e018b84fc61b2b6be",
+   "bytes": 22275,
+   "source": "written for this export on 2026-11-02, revised the same day",
+   "method": "new file"
+  },
+  {
+   "path": "notes/prereg_tulu.md",
+   "sha256": "8834b5e45b7d7da7915f6524645ae76dd069b26927fb748101512b97f33f4a71",
+   "bytes": 4773,
+   "source": "notes/prereg_tulu.md at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "notes/typed_layer_decisions_2026-10-15.md",
+   "sha256": "b6bed7ec2f90ed9fae308d2833fb256cc601ab7a90366bc12e46311f68dd7eda",
+   "bytes": 86166,
+   "source": "notes/typed_layer_decisions_2026-10-15.md at 1f167c2, redacted for the public copy: the owner's verbatim chat lines, Modal workspace names and balances withheld; a comment line added at the top",
+   "method": "redacted copy"
+  },
+  {
+   "path": "requirements-gpu.txt",
+   "sha256": "2ca49fe69329da77ec9e1f8bedb8f98c9fdbe2dedf5a7a6f8975a8bca75dbe8a",
+   "bytes": 1315,
+   "source": "written for this export on 2026-11-02",
+   "method": "new file"
+  },
+  {
+   "path": "requirements.txt",
+   "sha256": "b3ef5f6ae43d93f28ff9a9898347beaf6169d6fb9bd78c2a7ae8f030be64ecf8",
+   "bytes": 478,
+   "source": "written for this export on 2026-11-02",
+   "method": "new file"
+  },
+  {
+   "path": "results/tulu/human_check/key.jsonl",
+   "sha256": "72c28507c66fa83da086d8e94095d69e4887dc03fcf1a7667dc42a13746fbef7",
+   "bytes": 22798,
+   "source": "results/tulu/human_check/key.jsonl at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "source_sha256": "fa48083ba399de2d7c3820a58fc37c5dabd15fb828c265ca3ca566010ef42fb8",
+   "method": "GPQA rows removed (3 of 160 lines); every other line byte-identical"
+  },
+  {
+   "path": "results/tulu/human_check/labels.jsonl",
+   "sha256": "69740a59a60a6ebfab82fa11fbe2e72e095acd07c1fdcf2e2ae1dbbe66015e56",
+   "bytes": 10597,
+   "source": "results/tulu/human_check/labels.jsonl at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "source_sha256": "77b72fe08f70ef79a253b3d35f391733c23275083d251a011494595a5b4ace42",
+   "method": "GPQA rows removed (1 of 79 lines); every other line byte-identical"
+  },
+  {
+   "path": "results/tulu/human_check/score_59_labels.txt",
+   "sha256": "9f5a65758c142b861b3010b113580e1d6c53b746345910f57f73ce2f42b6cd8b",
+   "bytes": 165,
+   "source": "results/tulu/human_check (key.jsonl, labels.jsonl, to_label.csv) at commit 1f167c248e93b9047701507f9b328df2f5e50946, unfiltered",
+   "method": "stdout of `python -B -m withholding.score.human_check score results/tulu/human_check` (the code in this folder) on those files, run 2026-11-02"
+  },
+  {
+   "path": "results/tulu/human_check/to_label.csv",
+   "sha256": "ddd80f410724b3975e5eaf2cf37a0772496bd61dd7c8942f82ca439bc91100d8",
+   "bytes": 205845,
+   "source": "results/tulu/human_check/to_label.csv at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "source_sha256": "05d8bce76dc14d7f07abba7be71bd0e94e6c14161caed368ac60bde4db8030cd",
+   "method": "GPQA rows removed (3 of 160 rows); the other rows re-emitted with Python's csv writer (default dialect), which reproduces the original file byte for byte when no row is removed"
+  },
+  {
+   "path": "results/tulu_n4/VALIDATION.md",
+   "sha256": "476b7ac058922e2e9c4793204405d1515eeb11f580d0538832293af244d81aa7",
+   "bytes": 2540,
+   "source": "results/tulu_n4/VALIDATION.md at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "results/tulu_n4/dpo/scores.jsonl",
+   "sha256": "f1dd28f6f0b34b4f1349073639f6e92073c6b257fe42a117ff62aa764cf2f307",
+   "bytes": 3326810,
+   "source": "results/tulu_n4/dpo/scores.jsonl at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "results/tulu_n4/dpo/scores_abstain_label_blind_all_post-2d.jsonl",
+   "sha256": "b38e980c51ed2529035aac7e882df700ff94ecdcff78cbf9a7aeaab2f4fffaf1",
+   "bytes": 9349903,
+   "source": "results/tulu_n4/dpo/scores_abstain_label_blind_all_post-2d.jsonl at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "results/tulu_n4/report.md",
+   "sha256": "bd24a3adaead8b97ac96d610e7070a34027a56ec0262b39e563358646416c3e9",
+   "bytes": 13114,
+   "source": "results/tulu_n4/report.md at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "results/tulu_n4/rlvr/scores.jsonl",
+   "sha256": "71b844cca5818d0dd7af39d0abf0b557c9a801f1f1f23cbbdae56e85c6b842b8",
+   "bytes": 3292934,
+   "source": "results/tulu_n4/rlvr/scores.jsonl at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "results/tulu_n4/rlvr/scores_abstain_label_blind_all_post-2d.jsonl",
+   "sha256": "b8820e6c0d79630bb661006e55004675f92f6f285f6d079d58ec657d416848e1",
+   "bytes": 9319775,
+   "source": "results/tulu_n4/rlvr/scores_abstain_label_blind_all_post-2d.jsonl at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "results/tulu_n4/sft/scores.jsonl",
+   "sha256": "ac6c6e89db1ca545d31652b5444ac67ef6be6b5df6c229dd3750dfa68f911b22",
+   "bytes": 3326490,
+   "source": "results/tulu_n4/sft/scores.jsonl at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "results/tulu_n4/sft/scores_abstain_label_blind_all_post-2d.jsonl",
+   "sha256": "c8bd2f5d1a67ea56f09f4ac5198f984deee1b28e8cf1656280511f5612e439f3",
+   "bytes": 9363931,
+   "source": "results/tulu_n4/sft/scores_abstain_label_blind_all_post-2d.jsonl at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "scripts/export_abstentionbench.py",
+   "sha256": "f07273845b2fd8ab162e01701c2277038948bb51dc75e7c0387ea8edac3575f9",
+   "bytes": 2115,
+   "source": "scripts/export_abstentionbench.py at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "scripts/mean_over_21_datasets.py",
+   "sha256": "f91f20912d20e79db899f6f64203833c80b184a0527bd87c9d785627584fa93f",
+   "bytes": 2313,
+   "source": "written for this export on 2026-11-02",
+   "method": "new file"
+  },
+  {
+   "path": "scripts/run_tulu_n4.sh",
+   "sha256": "95805ee439175d0549d0a6b7c58484690ff5c5900e03a392993b3f48c02c420c",
+   "bytes": 2407,
+   "source": "scripts/run_tulu_n4.sh at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "third_party/abstentionbench/LICENSE",
+   "sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0",
+   "bytes": 19347,
+   "source": "the CC BY-NC 4.0 legal code, downloaded from https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt on 2026-11-02; the upstream LICENSE at e291841 is this licence",
+   "method": "vendored licence text"
+  },
+  {
+   "path": "third_party/abstentionbench/NOTICE",
+   "sha256": "547a9c96baac0a9c0902359e308b1a379f438b02a0dd29dde223cc59338b917a",
+   "bytes": 2251,
+   "source": "written for this export on 2026-11-02, licence line added the same day",
+   "method": "new file"
+  },
+  {
+   "path": "third_party/abstentionbench/abstention_performance.csv",
+   "sha256": "8878bb2ac3b66a3568dfcbd8784a70d1be074babe4a01330c83c4a717b782a9b",
+   "bytes": 66233,
+   "source": "third_party/abstentionbench/abstention_performance.csv at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "third_party/abstentionbench/evaluation.py",
+   "sha256": "a8d6bd5b81cb6845070b246cb399ccbb21ce21762e97926c3abaf0f196b84cd7",
+   "bytes": 7904,
+   "source": "third_party/abstentionbench/evaluation.py at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "third_party/abstentionbench/evaluation_judge_prompts.py",
+   "sha256": "94e751db02712e4abac63336b253fa92bf7cf9b6098a1dab690d655c72c337c9",
+   "bytes": 9053,
+   "source": "third_party/abstentionbench/evaluation_judge_prompts.py at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "third_party/abstentionbench/fast-subset-indices.json",
+   "sha256": "2ca7e91c4eb7134a4a0b89944123d07e40ab58e3ac5b388917b2657341ca94a7",
+   "bytes": 11912,
+   "source": "third_party/abstentionbench/fast-subset-indices.json at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "third_party/abstentionbench/inference.py",
+   "sha256": "15e14e32d80935b7dcff99760e1ca15c78525638885ac6b4bc64098584987a09",
+   "bytes": 4072,
+   "source": "third_party/abstentionbench/inference.py at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "third_party/abstentionbench/models.py",
+   "sha256": "1985375d852e78c9bc86794891e87185a479bca16567ea06094ba60e6df429f6",
+   "bytes": 44672,
+   "source": "third_party/abstentionbench/models.py at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "third_party/abstentionbench/system_prompt.py",
+   "sha256": "f6b295c9a3f96d9a59ed5a7e8ea31a106500865575a68e1376ae6903c750101e",
+   "bytes": 2227,
+   "source": "third_party/abstentionbench/system_prompt.py at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "withholding/__init__.py",
+   "sha256": "461124fcb47ef15efe22207d751e1cdf3a318f6930cae8696e03644b92446ffe",
+   "bytes": 537,
+   "source": "withholding/__init__.py at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "withholding/analysis/__init__.py",
+   "sha256": "78c7993c3fe77d752c152a943dd9301153175a0a82a00e1895cab90413e3c9a6",
+   "bytes": 103,
+   "source": "withholding/analysis/__init__.py at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "withholding/analysis/abstention_report.py",
+   "sha256": "e60f7f0bdfcb01b321316870a90785e06622e9f28582cb273fec4f9febed0044",
+   "bytes": 8206,
+   "source": "withholding/analysis/abstention_report.py at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "withholding/analysis/bootstrap.py",
+   "sha256": "a03caf553d364fd003703c0c21d0147a2b7a9dc5a5fdbe935147753339b6a30c",
+   "bytes": 2303,
+   "source": "withholding/analysis/bootstrap.py at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "withholding/run/__init__.py",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0,
+   "source": "withholding/run/__init__.py at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "withholding/run/modal_vllm.py",
+   "sha256": "1f2727008c9847e50c048df5d47a7e7523da834f230c8d97a6660657a81abb56",
+   "bytes": 25785,
+   "source": "withholding/run/modal_vllm.py at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "withholding/score/__init__.py",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0,
+   "source": "withholding/score/__init__.py at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "withholding/score/abstention_judge.py",
+   "sha256": "18e7aa265d0a508e249b7352e0b18b31816c4e728f52cfa3aacc757541757a1d",
+   "bytes": 60422,
+   "source": "withholding/score/abstention_judge.py at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "withholding/score/human_check.py",
+   "sha256": "2f41f1e78172ac6eef59f061363bb5303f83655a89ab6e0eefb7366b91cf9479",
+   "bytes": 4790,
+   "source": "withholding/score/human_check.py at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "withholding/score/record_file.py",
+   "sha256": "00bdc6a1213598bad9f886185beb13b43d41478c2cc7e1c438fcf377f717c12c",
+   "bytes": 5950,
+   "source": "withholding/score/record_file.py at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "withholding/typed/__init__.py",
+   "sha256": "95cd129b839cf0fee93f919db8ab80119a3b7eea5eddf523fff01d240d8ee039",
+   "bytes": 879,
+   "source": "withholding/typed/__init__.py at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "withholding/typed/adapters.py",
+   "sha256": "7602b13dda3a5017fe6554fc1a64cbc3f0f73dc5bc2d570d3c3462f2a0f711d7",
+   "bytes": 38048,
+   "source": "withholding/typed/adapters.py at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "withholding/typed/dispatch.py",
+   "sha256": "70cc090bec3bb84270045a3e16184ed03ec81a0de5562a850f1c5ac593d6b639",
+   "bytes": 28019,
+   "source": "withholding/typed/dispatch.py at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "withholding/typed/ingest.py",
+   "sha256": "cb3d74c90e9c5e30320c612adc3397632c8b34f1af7e9adf84942a79b015b56e",
+   "bytes": 79333,
+   "source": "withholding/typed/ingest.py at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "withholding/typed/legacy.py",
+   "sha256": "9abbd0931d08dfe578fdf1b967be05f4e8eca9ecfc32ae97c578d12ae96bb6de",
+   "bytes": 15204,
+   "source": "withholding/typed/legacy.py at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "withholding/typed/models.py",
+   "sha256": "83c1f4cb76003b0c9f240fbf0b05623d0cd2e2da70bb8aa5937dddfa33499888",
+   "bytes": 208838,
+   "source": "withholding/typed/models.py at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "withholding/typed/owner_decisions.pins.json",
+   "sha256": "9e12964bdc235fe493f0b69d1f7cf3cdad987d69c06e1c5aacfaf911179e4557",
+   "bytes": 5465,
+   "source": "recomputed for the redacted note by withholding.typed.registry check on 2026-11-02 (only the confirmation sha and the D25 record sha differ from 1f167c2)",
+   "method": "re-pinned"
+  },
+  {
+   "path": "withholding/typed/registry.py",
+   "sha256": "89de697037eb07ff044adb15e3c58bdad57ffc8a8cd5c95b5e9339a6332dbb5b",
+   "bytes": 95548,
+   "source": "withholding/typed/registry.py at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  },
+  {
+   "path": "withholding/typed/registry_pins.v1.json",
+   "sha256": "d24278336f4f94c29165681aaeb7535e86a4f47edc6ca9b2ba4f41c87b8867ef",
+   "bytes": 43779,
+   "source": "withholding/typed/registry_pins.v1.json at commit 1f167c248e93b9047701507f9b328df2f5e50946",
+   "method": "verbatim (git show 1f167c2:<path>), byte-identical"
+  }
+ ]
+}

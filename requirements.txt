@@ -1,0 +1,6 @@
+# Analysis path: regenerate every table from the included score files, on a laptop, no GPU, no Modal.
+# Python 3.12 (the private repo runs 3.12.12). Pinned from the private repo's venv on 2026-11-02.
+# withholding.analysis.abstention_report and withholding.analysis.bootstrap need numpy; withholding.score.human_check
+# needs only the standard library.
+numpy==2.5.3
+# The GPU path (generation and judging on Modal, the typed judge builder) needs more: see requirements-gpu.txt.

@@ -1,0 +1,30 @@
+Vendored code from AbstentionBench
+
+Upstream repository: https://github.com/facebookresearch/AbstentionBench
+Upstream commit: e291841 (27 Aug 2025)
+Paper: Kirichenko et al., 2025, "AbstentionBench", arXiv 2506.09038v1
+
+The seven files in this folder (abstention_performance.csv, evaluation.py, evaluation_judge_prompts.py,
+fast-subset-indices.json, inference.py, models.py, system_prompt.py) are byte-identical to the upstream recipe/, data/
+and analysis/ folders at that commit. No local edits. The upstream main.py, configs and dataset classes are not
+vendored.
+
+Licence, as my fidelity review records it (notes/reviews/2026-10-14_abstentionbench_fidelity.md in the private
+repository, lines 10 to 15, 42 and 301 to 306):
+- The Hugging Face release facebook/AbstentionBench (sha af06080, 6 Aug 2025) carries the card licence cc-by-nc-4.0.
+- The paper's Table 3 lists the dataset licences: WorldSense CC-BY-NC 4.0; FalseQA, SituatedQA and UMWP "Not
+  specified"; GPQA CC-BY-4.0, with the dataset's request that its examples not be posted online.
+- The source files' own headers read: "Copyright (c) Meta Platforms, Inc. and affiliates. All rights reserved. This
+  source code is licensed under the license found in the LICENSE file in the root directory of this source tree." That
+  LICENSE file, read at the upstream commit e291841 on 2 Nov 2026, is the Creative Commons
+  Attribution-NonCommercial 4.0 International licence (CC BY-NC 4.0, https://creativecommons.org/licenses/by-nc/4.0/).
+  Its legal code is vendored beside this file as LICENSE (the plain-text legal code published by Creative Commons).
+  This folder redistributes the code unchanged, for non-commercial research, with this attribution.
+
+What this repository uses from here: evaluation_judge_prompts.py (the judge prompt
+LLM_JUDGE_ABSTENTION_COCONOT_STYLE_PROMPT, read by withholding/score/abstention_judge.py load_template) and
+abstention_performance.csv (the paper's released per-dataset results, read by
+withholding/analysis/abstention_report.py paper_recall). The other files are kept for reference.
+
+One character note: line 42 of evaluation_judge_prompts.py holds an en dash inside the published judge prompt. It stays,
+because the judge must read the prompt byte for byte.
